@@ -1,0 +1,86 @@
+
+#map-canvas
+{
+   width: 100%;
+   height: 300px;
+   background-color: #c3c3c3;
+   border-radius: 4px;
+}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (max-width: 991px) {
+   .event_detail
+   {
+      margin-top: 15px;
+   }
+}*/
+
+.row.event_details
+{
+   margin-top: 15px;
+}
+
+.panel_body,
+.company_contacts
+{
+   font-style: italic;
+   overflow: hidden;
+}
+.panel_body span,
+.company_contacts span,
+#standModal span.labl
+{
+   font-weight: bold;
+   font-style: normal;
+}
+
+#stands_section
+{
+   position: relative;
+   min-height: 30px;
+   overflow: hidden;
+}
+
+.panel_stand
+{
+   width: 350px;
+   float: left;
+   margin-left: 15px;
+}
+
+img.company_logo
+{
+   max-width: 130px;
+   max-height: 130px;
+}
+
+.panel_stand .thumbnail
+{
+   margin-bottom: 2px;
+}
+
+.company_contacts
+{
+   padding: 2px 15px;
+}
+
+.company_contacts a
+{
+   font-weight: normal;
+}
+
+img.stand_image
+{
+   max-width: 500px;
+   /*max-height: 500px;*/
+}
+
+.pointer
+{
+   cursor: pointer;
+}
+
+#companyFrorm
+{
+   position: relative;
+}
