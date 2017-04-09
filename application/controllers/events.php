@@ -360,7 +360,7 @@ class events extends CI_Controller {
 
          $mail .= "Thanks";
 
-         $this->email->from('info@crossover.com', 'Crossover Exposition');
+         $this->email->from('info@exposition.com', 'Exposition');
          //$this->email->to($to);
          $this->email->to('mmamjb1@gmail.com');
          $this->email->subject($mail_subject);
